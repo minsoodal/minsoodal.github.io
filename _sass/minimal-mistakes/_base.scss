@@ -1,13 +1,11 @@
 /* ==========================================================================
-   BASE ELEMENTS
-   ========================================================================== */
+  BASE ELEMENTS
+  ========================================================================== */
 
 html {
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
@@ -184,8 +182,8 @@ li ol {
 }
 
 /*
-   Media and embeds
-   ========================================================================== */
+    Media and embeds
+    ========================================================================== */
 
 /* Figures and images */
 
@@ -268,21 +266,21 @@ svg:not(:root) {
 }
 
 /*
-   Navigation lists
-   ========================================================================== */
+    Navigation lists
+    ========================================================================== */
 
 /**
- * Removes margins, padding, and bullet points from navigation lists
- *
- * Example usage:
- * <nav>
- *    <ul>
- *      <li><a href="#link-1">Link 1</a></li>
- *      <li><a href="#link-2">Link 2</a></li>
- *      <li><a href="#link-3">Link 3</a></li>
- *    </ul>
- *  </nav>
- */
+  * Removes margins, padding, and bullet points from navigation lists
+  *
+  * Example usage:
+  * <nav>
+  *    <ul>
+  *      <li><a href="#link-1">Link 1</a></li>
+  *      <li><a href="#link-2">Link 2</a></li>
+  *      <li><a href="#link-3">Link 3</a></li>
+  *    </ul>
+  *  </nav>
+  */
 
 nav {
   ul {
@@ -311,8 +309,8 @@ nav {
 }
 
 /*
-   Global animation transition
-   ========================================================================== */
+    Global animation transition
+    ========================================================================== */
 
 b,
 i,

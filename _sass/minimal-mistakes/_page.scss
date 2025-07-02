@@ -1,8 +1,8 @@
 /* ==========================================================================
-   SINGLE PAGE/POST
-   ========================================================================== */
+  SINGLE PAGE/POST
+  ========================================================================== */
 
-#main {
+  #main {
   @include clearfix;
   margin-inline: auto;
   padding-inline: 1em;
@@ -66,7 +66,7 @@ body {
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
+  line-height: $line-height;
 
   a {
     color: $text-color;
@@ -89,22 +89,23 @@ body {
     border-bottom: 1px solid $border-color;
   }
 
-	h1, h2, h3, h4, h5, h6 {
-		.header-link {
-			position: relative;
-			inset-inline-start: 0.5em;
-			opacity: 0;
-			font-size: 0.8em;
-			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
-			-moz-transition: opacity 0.2s ease-in-out 0.1s;
-			-o-transition: opacity 0.2s ease-in-out 0.1s;
-			transition: opacity 0.2s ease-in-out 0.1s;
-		}
+  h1, h2, h3, h4, h5, h6 {
+    .header-link {
+      position: relative;
+      inset-inline-start: 0.5em;
+      opacity: 0;
+      font-size: $doc-font-size;
+      line-height: $line-height;
+      -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+      -moz-transition: opacity 0.2s ease-in-out 0.1s;
+      -o-transition: opacity 0.2s ease-in-out 0.1s;
+      transition: opacity 0.2s ease-in-out 0.1s;
+    }
 
-		&:hover .header-link {
-			opacity: 1;
-		}
-	}
+    &:hover .header-link {
+      opacity: 1;
+    }
+  }
 
   p,
   li,
@@ -123,6 +124,7 @@ body {
         margin-top: -($indent-var);
       }
     }
+    line-height: $line-height;
   }
 
   a:not(.btn) {
@@ -260,8 +262,8 @@ body {
 }
 
 /*
-   Social sharing
-   ========================================================================== */
+    Social sharing
+    ========================================================================== */
 
 .page__share {
   margin-top: 2em;
@@ -289,8 +291,8 @@ body {
 }
 
 /*
-   Page meta
-   ========================================================================== */
+    Page meta
+    ========================================================================== */
 
 .page__meta {
   margin-top: 2em;
@@ -319,8 +321,8 @@ body {
 }
 
 /*
-   Page taxonomy
-   ========================================================================== */
+    Page taxonomy
+    ========================================================================== */
 
 .page__taxonomy {
   .sep {
@@ -416,8 +418,8 @@ body {
 }
 
 /*
-   Comments
-   ========================================================================== */
+    Comments
+    ========================================================================== */
 
 .page__comments {
   float: inline-start;
@@ -513,8 +515,8 @@ body {
 }
 
 /*
-   Related
-   ========================================================================== */
+    Related
+    ========================================================================== */
 
 .page__related {
   @include clearfix();
@@ -545,8 +547,8 @@ body {
 }
 
 /*
-   Wide Pages
-   ========================================================================== */
+    Wide Pages
+    ========================================================================== */
 
 .wide {
   .page, .page__related {

@@ -1,6 +1,6 @@
 /* ==========================================================================
-   STYLE RESETS
-   ========================================================================== */
+STYLE RESETS
+========================================================================== */
 
 * { box-sizing: border-box; }
 
@@ -8,6 +8,7 @@ html {
   /* apply a natural box layout model to all elements */
   box-sizing: border-box;
   background-color: $background-color;
+  line-height: $line-height;
   font-size: $doc-font-size;
 
   @include breakpoint($medium) {
@@ -74,6 +75,7 @@ audio:not([controls]) {
 
 a {
   color: $link-color;
+  text-decoration: none;
 }
 
 /* Apply focus state */
@@ -95,7 +97,7 @@ sub,
 sup {
   position: relative;
   font-size: 75%;
-  line-height: 0;
+  line-height: 1.6;
   vertical-align: baseline;
 }
 

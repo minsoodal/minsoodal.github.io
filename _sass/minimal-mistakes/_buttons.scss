@@ -1,12 +1,12 @@
 /* ==========================================================================
-   BUTTONS
-   ========================================================================== */
+  BUTTONS
+  ========================================================================== */
 
 /*
-   Default button
-   ========================================================================== */
+  Default button
+  ========================================================================== */
 
-.btn {
+  .btn {
   /* default */
   display: inline-block;
   margin-bottom: 0.25em;
@@ -37,13 +37,9 @@
   (warning, $warning-color),
   (danger, $danger-color),
   (info, $info-color),
-  /* brands */
-  (bluesky, $bluesky-color),
   (facebook, $facebook-color),
-  (linkedin, $linkedin-color),
-  (mastodon, $mastodon-color),
   (twitter, $twitter-color),
-  (x, $x-color);
+  (linkedin, $linkedin-color);
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
