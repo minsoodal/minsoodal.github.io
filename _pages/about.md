@@ -1,5 +1,5 @@
 ---
-# title: "About"
+title: "About"
 permalink: /   # This makes the page accessible as the root page
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png

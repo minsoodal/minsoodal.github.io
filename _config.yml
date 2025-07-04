@@ -115,13 +115,13 @@ analytics:
 author:
   name             : "Minhwa Lee"
   avatar           : "/assets/images/minsoodal_profile.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "AI Engineer @ Mayo Clinic"
+  bio              : "AI Engineer @ Mayo Clinic 🇰🇷🇺🇸"
   location         : "Minneapolis, MN"
   email            : "minhwalee.ai@gmail.com"
   links:
-    - label: "Work Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:lee.minhwa@mayo.edu"
+    # - label: "Work Email"
+    #   icon: "fas fa-fw fa-envelope-square"
+    #   url: "mailto:lee.minhwa@mayo.edu"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   # url: "https://your-website.com"
@@ -137,9 +137,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/minsoodal/"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   # url: "https://instagram.com/"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?user=8lhVY7sAAAAJ&hl=en/"
 
 # Site Footer
 footer:
@@ -202,6 +202,7 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+permalink: /
 
 # Conversion
 markdown: kramdown
