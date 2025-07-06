@@ -4,9 +4,15 @@
    ========================================================================== */
 
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-/* Font family overrides */
-$global-font-family: 'Georgia', 'Times New Roman', serif !default;
-$header-font-family: 'Georgia', 'Times New Roman', serif !default;
-$caption-font-family: 'Georgia', 'Times New Roman', serif !default;
+// /* Font family overrides */
+// $global-font-family: 'Georgia', 'Times New Roman', serif !default;
+// $header-font-family: 'Georgia', 'Times New Roman', serif !default;
+// $caption-font-family: 'Georgia', 'Times New Roman', serif !default;
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic&display=swap');
+
+$global-font-family: 'Gowun Dodum', sans-serif !default;
+$header-font-family: 'Gowun Dodum', sans-serif !default;
+$caption-font-family: 'Gowun Dodum', sans-serif !default;

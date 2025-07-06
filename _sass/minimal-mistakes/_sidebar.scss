@@ -19,13 +19,20 @@
   @include breakpoint($large) {
     float: inline-start;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    opacity: 0.75;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+    // opacity: 0.75;
+    // -webkit-transition: opacity 0.2s ease-in-out;
+    // transition: opacity 0.2s ease-in-out;
 
-    &:hover {
-      opacity: 1;
-    }
+    // &:hover {
+    //   opacity: 1;
+    // }
+    /*
+      Make sidebar content always solid instead of fading until hovered.
+      Remove transition/hover styles and keep opacity at 1.
+    */
+    opacity: 0.85;
+    -webkit-transition: none;
+    transition: none;
 
     &.sticky {
       overflow-y: auto;
@@ -51,12 +58,14 @@
   h5,
   h6 {
     margin-bottom: 0;
-    font-family: $sans-serif-narrow;
+    // font-family: $sans-serif-narrow;
+    font-family: $global-font-family;
   }
 
   p,
   li {
-    font-family: $sans-serif;
+    // font-family: $sans-serif;
+    font-family: $global-font-family;
     font-size: $type-size-6;
     line-height: 1.5;
   }
@@ -142,6 +151,7 @@
   img {
     max-width: 210px;
     border-radius: 15%;
+    background-attachment: fixed;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -178,6 +188,7 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
+  // font-family: $global-font-family;
   font-size: 20px;
 }
 

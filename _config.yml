@@ -17,8 +17,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : " "
-title_separator          : "|"
+title                    : "Minhwa Lee"
+title_separator          : "| Minhwa Lee"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "Minhwa Lee"
 description              : "Personal website of Minhwa Lee"
@@ -327,9 +327,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
-      share: true
-      related: true
+      comments: true
   # _pages
   - scope:
       path: "_pages"
