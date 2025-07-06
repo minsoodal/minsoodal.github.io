@@ -328,6 +328,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
+      date: true
   # _pages
   - scope:
       path: "_pages"
@@ -336,3 +337,4 @@ defaults:
       css: "assets/css/custom.scss"
       layout: single
       author_profile: true 
+      show_date: true
