@@ -16,3 +16,4 @@ layouts_gallery:
 Jotting down my thoughts and experiences from the past few years and onward. 
 
 [Job Recap](Job-Prep.md): How I ended up landing a job as an AI engineer.
+
