@@ -23,7 +23,7 @@ layouts_gallery:
 <p align='justify'> Regarding education, I earned my Master's in Computer Science from <a href="https://www.umass.edu/">University of Massachusetts Amherst</a> in 2023 and Bachelor's in CS and Mathematics (Data Science Minor) from <a href="https://wooster.edu/">The College of Wooster</a> in 2021. </p>
 
 
-Updated June 2025: [[Résumé]](assets/files/CV_minhwa_lee.pdf)
+<b>Updated June 2025: [[Résumé]](assets/files/CV_minhwa_lee.pdf)</b>
 
 
 <section id="news" style="margin: 2rem 0;">

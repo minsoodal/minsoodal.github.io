@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Minhwa Lee"
+title                    : ""
 title_separator          : "| Minhwa Lee"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : &name "Minhwa Lee"
@@ -247,7 +247,7 @@ pagination:
   # enabled: true
   debug: false
   collection: 'posts'
-  per_page: 10
+  per_page: 3
   permalink: '/page/:num/'
   title: ':title - page :num'
   limit: 0
@@ -326,9 +326,9 @@ defaults:
       css: "assets/css/custom.css"
       layout: single
       author_profile: true
-      read_time: true
       comments: true
-      date: true
+      show_date: true
+      read_time: false
   # _pages
   - scope:
       path: "_pages"
