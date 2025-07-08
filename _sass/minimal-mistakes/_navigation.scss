@@ -61,7 +61,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-family: $sans-serif;
+    font-family: $global-font-family;
   }
 
   li {
@@ -73,7 +73,7 @@
       display: block;
       margin-bottom: 0.25em;
       padding: 0.5em 1em;
-      font-family: $sans-serif;
+      font-family: $global-font-family;
       font-size: 14px;
       font-weight: bold;
       line-height: 1.5;
@@ -123,7 +123,7 @@
     padding: 1em 2em;
     float: inline-start;
     width: 50%;
-    font-family: $sans-serif;
+    font-family: $global-font-family;
     font-size: $type-size-5;
     font-weight: bold;
     text-align: center;
@@ -503,7 +503,7 @@
       ========================================================================== */
 
 .toc {
-  font-family: $sans-serif-narrow;
+  font-family: $global-font-family;
   color: $gray;
   background-color: $background-color;
   border: 1px solid $border-color;
