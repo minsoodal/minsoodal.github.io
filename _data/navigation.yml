@@ -3,4 +3,7 @@ main:
   - title: About
     url: /
   - title: Blog
+    url: /blogs/
+  - title: Thoughts
     url: /posts/
+  
