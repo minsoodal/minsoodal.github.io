@@ -5,6 +5,7 @@ author_profile: true
 permalink: /blogs/   # This makes the page accessible as the root page
 pagination:
   enabled: true
+  category: blog
 # layouts_gallery:
 #   - url: /assets/images/mm-layout-splash.png
 #     image_path: /assets/images/mm-layout-splash.png

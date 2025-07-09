@@ -7,6 +7,8 @@ date: 2025-07-09
 
 toc: false
 toc_sticky: false
+
+categories: [blog]
 ---
 
 
