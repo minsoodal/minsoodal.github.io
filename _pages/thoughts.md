@@ -1,5 +1,6 @@
 ---
 title: ""
+home_subtitle: "Sharing life updates, career reflections, journaling, etc"
 layout: home  # posts
 author_profile: true
 permalink: /thoughts/   # This makes the page accessible as the root page

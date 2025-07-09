@@ -1,5 +1,6 @@
 ---
 title: ""
+home_subtitle: "AI engineering topics, research summaries, and other technical topics..."
 layout: home  # posts
 author_profile: true
 permalink: /blogs/   # This makes the page accessible as the root page

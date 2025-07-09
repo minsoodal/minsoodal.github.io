@@ -3,9 +3,11 @@ layout: archive
 ---
 
 {{ content }}
-
+{% if page.home_subtitle %}
+<h2 class="archive__subtitle">{{ page.home_subtitle }}</h2>
+{% else %}
 <h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Untangling the mess of thoughts in my head (ENG/KOR)" }}</h2>
-
+{% endif %}
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
