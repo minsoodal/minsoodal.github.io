@@ -21,7 +21,7 @@ I am an AI Engineer at <a href="https://www.mayoclinic.org/">Mayo Clinic</a>, co
 </p>
 
 <p align='justify'> 
-Before joining Mayo Clinic, I was a full-time researcher at UMass Lowell and the University of Minnesota. My research focused on natural language processing (NLP) and human-computer interaction (HCI), with projects centered around LLM evaluation and alignment, domain specialization through human-AI collaboration, and real-world AI applications for industry needs. Over the past two years, I’ve authored multiple papers in top-tier conferences such as ACL, EMNLP, COLING, and CHI. Please refer to my <a ref="https://scholar.google.com/citations?user=8lhVY7sAAAAJ&hl=en"> Google Scholar profile </a>.
+Before joining Mayo Clinic, I was a full-time researcher at UMass Lowell and the University of Minnesota. My research focused on natural language processing (NLP) and human-computer interaction (HCI), with projects centered around LLM evaluation and alignment, domain specialization through human-AI collaboration, and real-world AI applications for industry needs. Over the past two years, I’ve authored multiple papers in top-tier conferences such as ACL, EMNLP, COLING, and CHI. Please refer to my <a href="https://scholar.google.com/citations?user=8lhVY7sAAAAJ&hl=en"> Google Scholar profile </a>.
 </p>
 
 <p align='justify'> 
