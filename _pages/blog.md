@@ -1,12 +1,15 @@
 ---
 title: ""
 home_subtitle: "AI engineering topics, research summaries, and other technical topics..."
-layout: home  # posts
+# layout: home  # posts
+layout: category
 author_profile: true
 permalink: /blogs/   # This makes the page accessible as the root page
-pagination:
-  enabled: true
-  category: blog
+# pagination:
+#   enabled: true
+#   category: blog
+taxonomy: blog
+
 # layouts_gallery:
 #   - url: /assets/images/mm-layout-splash.png
 #     image_path: /assets/images/mm-layout-splash.png
