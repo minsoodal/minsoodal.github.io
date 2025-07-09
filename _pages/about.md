@@ -16,14 +16,21 @@ layouts_gallery:
 
 <h1> 🙋🏻‍♀️ Welcome! </h1>
 
-<p align='justify'> I am an AI Engineer at <a href="https://www.mayoclinic.org/">Mayo Clinic</a>, sourced via <a href="https://www.citiustech.com/">CitiusTech Inc</a> - a healthcare IT consulting company. At Mayo Clinic, I am a part of the Applied AI Product team under the department of Information Technology. Here, I develop an AI-driven clinical trial matching tool for medical research operations using large language models (LLMs). </p>
+<p align='justify'> 
+I am an AI Engineer at <a href="https://www.mayoclinic.org/">Mayo Clinic</a>, contracted through <a href="https://www.citiustech.com/">CitiusTech Inc.,</a> a leading healthcare IT consulting firm in the US. At Mayo Clinic, I work on the Applied AI Product team within the department of Information Technology, where I develop AI-powered clinical trial matching tools using large language models (LLMs) to support medical research operations. 
+</p>
 
-<p align='justify'> Prior to joining Mayo Clinic, I was a full-time researcher at UMass Lowell and University of Minnesota, focusing on natural language processing (NLP) and human-computer interaction (HCI). I conducted research on large language models (LLMs) evaluation & alignment, human-AI collaboration for LLM domain specialization, and AI solution development for real-world business challenges. With 4 years of professional AI experience, I have published several papers in top-tier AI conferences, such as ACL, EMNLP, COLING, and CHI. Please refer to my <a ref="https://scholar.google.com/citations?user=8lhVY7sAAAAJ&hl=en"> Google Scholar profile </a>. </p>
+<p align='justify'> 
+Before joining Mayo Clinic, I was a full-time researcher at UMass Lowell and the University of Minnesota. My research focused on natural language processing (NLP) and human-computer interaction (HCI), with projects centered around LLM evaluation and alignment, domain specialization through human-AI collaboration, and real-world AI applications for industry needs. Over the past two years, I’ve authored multiple papers in top-tier conferences such as ACL, EMNLP, COLING, and CHI. Please refer to my <a ref="https://scholar.google.com/citations?user=8lhVY7sAAAAJ&hl=en"> Google Scholar profile </a>.
+</p>
 
-<p align='justify'> Regarding education, I earned my Master's in Computer Science from <a href="https://www.umass.edu/">University of Massachusetts Amherst</a> in 2023 and Bachelor's in CS and Mathematics (Data Science Minor) from <a href="https://wooster.edu/">The College of Wooster</a> in 2021. </p>
+<p align='justify'> 
 
+I hold an M.S. in Computer Science from <a href="https://www.umass.edu/">University of Massachusetts Amherst</a> (2023) and double B.A. degrees in Computer Science and Mathematics, with a minor in Data Science, from <a href="https://wooster.edu/">The College of Wooster</a> (2021).
+</p>
 
-<b>Updated June 2025: [[Résumé]](assets/files/CV_minhwa_lee.pdf)</b>
+---------
+<b>Updated July 2025: [[CV]](assets/files/CV_NIW_minhwa.pdf)</b>
 
 
 <section id="news" style="margin: 2rem 0;">

@@ -11,8 +11,11 @@
 // $header-font-family: 'Georgia', 'Times New Roman', serif !default;
 // $caption-font-family: 'Georgia', 'Times New Roman', serif !default;
 
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Gothic&display=swap');
 
-$global-font-family: 'Gowun Dodum', sans-serif !default;
-$header-font-family: 'Gowun Dodum', sans-serif !default;
-$caption-font-family: 'Gowun Dodum', sans-serif !default;
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+$global-font-family: 'Nanum Gothic', sans-serif !default;
+$header-font-family: 'Nanum Gothic', sans-serif !default;
+$caption-font-family: 'Nanum Gothic', sans-serif !default;
+ 
