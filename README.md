@@ -1,2 +1,0 @@
-# minsoodal.github.io
-
