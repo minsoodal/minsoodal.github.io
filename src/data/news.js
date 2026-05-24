@@ -1,37 +1,36 @@
 export const news = [
   {
     date: "May '26",
-    text: "Preparing a case study manuscript on the real-world evaluation of HERMES-AI for clinical trial matching.",
-    highlight: "case study manuscript",
+    text: "Submitted a first-authored manuscript for an multi-agent clinical trial matching that I led at Mayo Clinic. Wish me good luck!",
+    highlight: "multi-agent clinical trial matching",
   },
   {
     date: "May '26",
-    text: "Generated appendix-ready figures and tables for Phase 1 vs. Phase 2 evaluation analyses.",
-    highlight: "Phase 1 vs. Phase 2",
+    text: "My Google Scholar citations reached 400!",
+    highlight: "400",
   },
   {
     date: "Apr '26",
-    text: "Expanded evidence-quality analysis using CRC feedback on clinical evidence snippets and criterion-level outputs.",
-    highlight: "evidence-quality analysis",
-  },
-  {
-    date: "Mar '26",
-    text: "Improved DeepMatcher with parent-criterion reasoning, stronger confidence outputs, and evidence-level summaries.",
-    highlight: "DeepMatcher",
-  },
-  {
-    date: "Feb '26",
-    text: "Integrated structured and unstructured patient data sources including FHIR resources, OCR notes, labs, medications, and conditions.",
-    highlight: "structured and unstructured",
+    text: "My work on AI-assisted writing is accepted to ACL 2026 as a main track (Acceptance rate: 18%)!",
+    highlight: "ACL 2026",
   },
   {
     date: "Jan '26",
-    text: "Started exploring physical AI and robotics as a future extension of clinical AI systems research.",
-    highlight: "physical AI",
+    text: "My work on social determinants of health is published in Scientific Reports!",
+    highlight: "Scientific Reports",
   },
   {
-    date: "Nov '25",
-    text: "Supported productionized clinical trial matching workflows with human-in-the-loop review by clinical research coordinators.",
-    highlight: "human-in-the-loop",
+    date: "Apr '25",
+    text: " Accepted a full-time offer as an AI engineer at CitiusTech. I will be deployed as a senior software engineer at Applied AI product team at Mayo Clinic.",
   },
+  //  {
+  //   date: "Apr '25",
+  //   text: " Accepted a full-time offer as an AI engineer at CitiusTech. I will be deployed as a senior software engineer at Applied AI product team at Mayo Clinic.",
+  //   // highlight: "DeepMatcher",
+  // },
+  //  {
+  //   date: "Apr '25",
+  //   text: " Accepted a full-time offer as an AI engineer at CitiusTech. I will be deployed as a senior software engineer at Applied AI product team at Mayo Clinic.",
+  //   // highlight: "DeepMatcher",
+  // },
 ];

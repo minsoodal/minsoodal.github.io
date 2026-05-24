@@ -12,7 +12,7 @@ export function runContentTests() {
 
   console.assert(pages.length === expectedPageKeys.length, "Expected one home page plus three dedicated content pages.");
   console.assert(typewriterSentence.length > 20, "Homepage typewriter sentence should be meaningful and visible.");
-  console.assert(news.length >= 6, "Home page should include enough news items for Show more/less.");
+  console.assert(news.length >= 4, "Home page should include enough news items for Show more/less.");
   console.assert(filterTags.includes("All"), "Publication filters must include All.");
   console.assert(publicationYears.includes("All years"), "Publication year filter must include All years.");
   console.assert(publications.length >= 4, "Expected at least four publication rows.");
