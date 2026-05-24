@@ -3,6 +3,10 @@
   --highlight-color-g: 140;
   --highlight-color-b: 80;
   --highlight-gradient: linear-gradient(98deg, rgba(var(--highlight-color-r), var(--highlight-color-g), var(--highlight-color-b), 0) 0%, rgba(var(--highlight-color-r), var(--highlight-color-g), var(--highlight-color-b), 0.20) 1.5%, rgba(var(--highlight-color-r), var(--highlight-color-g), var(--highlight-color-b), 0.10) 8%, rgba(var(--highlight-color-r), var(--highlight-color-g), var(--highlight-color-b), 0.13) 92%, rgba(var(--highlight-color-r), var(--highlight-color-g), var(--highlight-color-b), 0.18) 98.5%, rgba(var(--highlight-color-r), var(--highlight-color-g), var(--highlight-color-b), 0) 100%);
+  --highlight-color-yellow-r: 800;
+  --highlight-color-yellow-g: 10;
+  --highlight-color-yellow-b: 500;
+  --highlight-gradient-yellow: linear-gradient(98deg, rgba(var(--highlight-color-yellow-r), var(--highlight-color-yellow-g), var(--highlight-color-yellow-b), 0) 0%, rgba(var(--highlight-color-yellow-r), var(--highlight-color-yellow-g), var(--highlight-color-yellow-b), 0.20) 1.5%, rgba(var(--highlight-color-yellow-r), var(--highlight-color-yellow-g), var(--highlight-color-yellow-b), 0.10) 8%, rgba(var(--highlight-color-yellow-r), var(--highlight-color-yellow-g), var(--highlight-color-yellow-b), 0.13) 92%, rgba(var(--highlight-color-yellow-r), var(--highlight-color-yellow-g), var(--highlight-color-yellow-b), 0.18) 98.5%, rgba(var(--highlight-color-yellow-r), var(--highlight-color-yellow-g), var(--highlight-color-yellow-b), 0) 100%);
   --color-black: #121212;
   --color-ink: #1a1a1a;
   --color-gray-dark: #333333;
@@ -13,7 +17,7 @@
   --font-display: Cormorant Garamond, Georgia, "Noto Serif KR", "Apple SD Gothic Neo", "Malgun Gothic", serif;
   --font-body: Inter, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Segoe UI", sans-serif;
   --max-width: 750px;
-  --photo-size: clamp(64px, 18vw, 117px);
+  --photo-size: clamp(80px, 22vw, 200px);
   --icon-size: clamp(42px, 10vw, 80px);
   --space-sm: 6px;
   --space-md: 12px;
@@ -153,11 +157,12 @@ body {
 
 .typewriter-text {
   font-family: var(--font-display);
-  font-size: clamp(1.55rem, 5.8vw, 3rem);
-  line-height: 1.12;
+  font-size: clamp(2.1rem, 5.8vw, 1.5rem);
+  line-height: 1;
   color: var(--color-black);
   font-weight: 600;
   margin: 0;
+  font-style:italic;
   letter-spacing: -0.025em;
 }
 
@@ -191,18 +196,18 @@ body {
 
 .bio-photo {
   width: var(--photo-size);
-  height: calc(var(--photo-size) * 1.16);
-  border-radius: 4px;
+  height: calc(var(--photo-size));
+  /* border-radius: 4px; */
   display: grid;
   place-items: center;
   background: linear-gradient(145deg, #f7f7f7, #e8f2ec);
-  border: 1px solid var(--color-gray-pale);
+  /* border: 1px solid var(--color-gray-pale); */
   color: var(--color-gray-light);
   font-family: var(--font-display);
   font-size: clamp(0.8rem, 3vw, 1.1rem);
   text-align: center;
-  line-height: 1.2;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  line-height: 1.1;
+  box-shadow: 0 2px 7px rgba(0,0,0,0.7);
 }
 
 .social-links {
@@ -261,6 +266,15 @@ body {
 
 .highlight-organic {
   background: var(--highlight-gradient);
+  padding: 0.05em 0.25em;
+  margin: 0 -0.15em;
+  border-radius: 0.6em 0.25em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.highlight-organic-yellow {
+  background: var(--highlight-gradient-yellow);
   padding: 0.05em 0.25em;
   margin: 0 -0.15em;
   border-radius: 0.6em 0.25em;

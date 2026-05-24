@@ -1,4 +1,6 @@
-export const typewriterSentence = "how can AI assist clinicians and improve patient care?";
+import { SiGithub, SiGooglescholar } from "react-icons/si";
+
+export const typewriterSentence = "How do we build AI that clinicians can actually trust and patients can benefit from?";
 
 export const pages = [
   { key: "home", label: "Home" },
@@ -8,9 +10,9 @@ export const pages = [
 ];
 
 export const socialLinks = [
-  { label: "Email", href: "mailto:psalm10045@gmail.com", icon: "✉" },
+  { label: "Email", href: "mailto:minhwalee.ai@gmail.com", icon: "✉" },
   { label: "CV", href: "/cv.pdf", icon: "CV" },
-  { label: "Scholar", href: "#", icon: "G" },
-  { label: "LinkedIn", href: "#", icon: "in" },
-  { label: "GitHub", href: "https://github.com/minsoodal", icon: "{}" },
+  { label: "Google Scholar", href: "https://scholar.google.com/citations?user=8lhVY7sAAAAJ&hl=en", icon: SiGooglescholar },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/minhwalee/", icon: "in" },
+  { label: "GitHub", href: "https://github.com/minsoodal", icon: SiGithub },
 ];

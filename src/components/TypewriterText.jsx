@@ -37,7 +37,7 @@ export default function TypewriterText({ text = typewriterSentence }) {
 
   return (
     <div className="typewriter-wrap" aria-label={text}>
-      <p className="typewriter-kicker">Research question</p>
+      <p className="typewriter-kicker">I am interested in ... </p>
       <h1 className="typewriter-text">
         <span aria-hidden="true">{displayText}</span>
         <span className="typewriter-cursor" aria-hidden="true" />

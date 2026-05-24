@@ -29,7 +29,8 @@ export default function App() {
       </main>
 
       <p className="template-credit">
-        Design adapted for Minhwa Lee's academic homepage, with a news-focused home page and dedicated content pages.
+        Design inspired by <a href="https://danielrjiang.github.io/">Dr. Daniel R. Jiang's website</a>. 
+        The code for this website design is available at this <a href="https://github.com/minsoodal/minsoodal.github.io">repo</a>.
       </p>
       <BackToTop />
     </div>
