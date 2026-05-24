@@ -196,18 +196,9 @@ body {
 
 .bio-photo {
   width: var(--photo-size);
-  height: calc(var(--photo-size));
-  /* border-radius: 4px; */
-  display: grid;
-  place-items: center;
-  background: linear-gradient(145deg, #f7f7f7, #e8f2ec);
-  /* border: 1px solid var(--color-gray-pale); */
-  color: var(--color-gray-light);
-  font-family: var(--font-display);
-  font-size: clamp(0.8rem, 3vw, 1.1rem);
-  text-align: center;
-  line-height: 1.1;
-  box-shadow: 0 2px 7px rgba(0,0,0,0.7);
+  height: auto;
+  display: block;
+  object-fit: contain;
 }
 
 .social-links {
@@ -217,6 +208,15 @@ body {
   margin-top: auto;
   padding-top: var(--space-md);
   flex-wrap: wrap;
+}
+
+.bio-origin {
+  margin: 0;
+  padding-top: var(--space-sm);
+  font-size: 0.72rem;
+  color: var(--color-gray-light);
+  line-height: 1.6;
+  text-align: center;
 }
 
 .social-dot {

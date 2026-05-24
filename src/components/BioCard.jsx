@@ -12,6 +12,10 @@ export default function BioCard({ setActivePage }) {
           <div className="social-links">
             {socialLinks.map((item) => <SocialLink key={item.label} item={item} />)}
           </div>
+          <p className="bio-origin">
+            🇰🇷 Originally from South Korea<br />
+            🇺🇸 Based in Minneapolis, MN
+          </p>
         </div>
 
         <div className="bio-right">
