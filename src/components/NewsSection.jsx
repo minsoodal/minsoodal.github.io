@@ -7,7 +7,7 @@ function HighlightText({ text, highlight }) {
   return (
     <>
       {before}
-      <span className="highlight-organic">{highlight}</span>
+      <span className="highlight-organic-yellow">{highlight}</span>
       {after}
     </>
   );
@@ -15,7 +15,7 @@ function HighlightText({ text, highlight }) {
 
 export default function NewsSection() {
   const [expanded, setExpanded] = useState(false);
-  const visibleNews = expanded ? news : news.slice(0, 5);
+  const visibleNews = expanded ? news : news.slice(0, 4); // adjust here to set the maximum number of entries
 
   return (
     <section className="marginalia-section" aria-labelledby="news-heading">
@@ -32,7 +32,7 @@ export default function NewsSection() {
               </div>
             ))}
           </div>
-          {news.length > 5 && (
+          {news.length > 4 && (
             <button type="button" className="marginalia-toggle" onClick={() => setExpanded((value) => !value)}>
               {expanded ? "Show less" : "Show more"}
             </button>
