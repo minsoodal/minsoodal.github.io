@@ -19,9 +19,10 @@ export default function PublicationsPage() {
   return (
     <section id="publications" className="content-section page-section">
       <SectionHeader
-        eyebrow="Research Output"
-        title="Publications and Papers Under Review"
-        description="A dedicated page for manuscripts, technical reports, supplementary analyses, and project-linked research artifacts."
+        // eyebrow="Research Output"
+        title="Publications"
+        description="My research have generally spanned LLM evaluation, human-AI collaboration with HCI perspectives, and computational epidemiology.
+        * denotes equal contributions."
       />
       <PublicationControls
         activeFilter={activeFilter}
