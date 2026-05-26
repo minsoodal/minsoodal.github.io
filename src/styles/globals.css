@@ -673,18 +673,11 @@ body {
 }
 
 .blog-date-block {
-  width: 100%;
-  min-height: clamp(42px, 10vw, 80px);
-  border-radius: 3px;
-  border: 1px solid var(--color-gray-pale);
-  background: #fafafa;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   color: var(--color-gray-dark);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
 }
 
 .blog-date-block span {
