@@ -2,8 +2,10 @@
 id: clinical-ai-evaluation-toolkit
 title: Clinical AI Evaluation Toolkit
 subtitle: Manuscript-support analysis
+category: Clinical AI
 status: Concept
 year: 2026
+image: ""
 description: Utilities for summarizing survey responses, evidence-quality feedback, phase comparisons, and appendix-ready figures for clinical AI manuscripts.
 links:
   - Methods

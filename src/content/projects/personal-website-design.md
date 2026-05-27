@@ -1,10 +1,12 @@
 ---
-id: academic-website-design-system
-title: Academic Website Design System
-subtitle: GitHub Pages personal site
+id: personal-website-design
+title: Personal Website Design
+# subtitle: GitHub Pages personal site
+category: Web Development
 status: Design demo
 year: 2026
-description: A minimal academic homepage for clinical AI research, selected publications, technical notes, and project storytelling.
+image: ""
+description: A GitHub page for research demo, with blog posts and projects as a portfolio website
 links:
   - Demo
   - GitHub
@@ -13,7 +15,6 @@ stack:
   - GitHub Pages
   - Vite
   - Markdown
-  - Academic design system
 goals:
   - Keep the homepage focused on identity and recent updates.
   - Separate publications, blog posts, and projects into dedicated pages.
