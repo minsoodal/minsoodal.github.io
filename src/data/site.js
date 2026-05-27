@@ -1,7 +1,7 @@
 import { SiGmail, SiGithub, SiGooglescholar } from "react-icons/si";
 import { FaLinkedin } from "react-icons/fa";
 
-export const typewriterSentence = "Building AI that people can trust and meaningfully benefit from.";
+export const typewriterSentence = "Building AI that clinicians and patients can trust and meaningfully benefit from.";
 
 export const pages = [
   { key: "home", label: "Home" },
