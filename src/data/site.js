@@ -12,7 +12,7 @@ export const pages = [
 
 export const socialLinks = [
   { label: "Email", href: "mailto:minhwalee.ai@gmail.com", icon: SiGmail},
-  { label: "CV", href: "/cv.pdf", icon: "CV" },
+  { label: "CV", href: "/cv_minhwa.pdf", icon: "CV" },
   { label: "Google Scholar", href: "https://scholar.google.com/citations?user=8lhVY7sAAAAJ&hl=en", icon: SiGooglescholar },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/minhwalee/", icon: FaLinkedin },
   { label: "GitHub", href: "https://github.com/minsoodal", icon: SiGithub },

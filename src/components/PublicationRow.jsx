@@ -6,7 +6,7 @@ function PublicationThumbnail({ label }) {
     <div className="row-icon">
       <div className="publication-icon" aria-hidden="true">
         {isImage
-          ? <img src={label} alt="" style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "inherit" }} />
+          ? <img src={label} alt="" style={{ width: "100%", height: "100%", objectFit: "contain", borderRadius: "inherit" }} />
           : label.split("\n").map((line) => <span key={line}>{line}</span>)
         }
       </div>

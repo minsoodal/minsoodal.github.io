@@ -29,7 +29,7 @@ export default function App() {
       </main>
 
       <p className="template-credit">
-        Design inspired by <a href="https://danielrjiang.github.io/">Dr. Daniel R. Jiang's website</a>. 
+        Design © 2026 Minhwa Lee . 
         The code for this website is available at this <a href="https://github.com/minsoodal/minsoodal.github.io">repo</a>.
       </p>
       <BackToTop />
