@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage.jsx";
 import PublicationsPage from "./pages/PublicationsPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
+import CVPage from "./pages/CVPage.jsx";
 import { runContentTests } from "./utils/contentTests.js";
 
 runContentTests();
@@ -26,6 +27,7 @@ export default function App() {
         {activePage === "publications" && <PublicationsPage />}
         {activePage === "blog" && <BlogPage />}
         {activePage === "projects" && <ProjectsPage />}
+        {activePage === "cv" && <CVPage />}
       </main>
 
       <p className="template-credit">
