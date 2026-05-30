@@ -12,21 +12,26 @@ export default function BioCard({ setActivePage }) {
           <div className="social-links">
             {socialLinks.map((item) => <SocialLink key={item.label} item={item} />)}
           </div>
+          <p className="bio-origin">
+            🇰🇷 Originally from South Korea<br />
+            🇺🇸 Based in Minneapolis, MN<br />
+          </p>
         </div>
 
         <div className="bio-right">
           <div>
             <p>
-              I'm an <span className="highlight-organic-yellow">AI engineer</span> at Mayo Clinic, where I build AI-powered clinical decision support tools for efficient patient care. My work sits at the bridge between research and real-world deployment: designing <span className="highlight-organic">AI agents</span>, optimizing <span className="highlight-organic">LLM reasoning</span> with <span className="highlight-organic">human-in-the-loop evaluation</span> to keep things safe and trustworthy in clinical settings.
+              I'm an <span className="highlight-organic-yellow">AI engineer</span> working in clinical AI at Mayo Clinic, where I develop AI-powered clinical decision support tools to support efficient and trustworthy patient care. My work sits at the mix of research and deployment, focusing on <span className="highlight-organic">AI agents</span>, <span className="highlight-organic">LLM reasoning optimization </span> through <span className="highlight-organic">human-in-the-loop evaluation</span> to make sure safety and reliability in <button type="button" className="inline-link">real-world clinical settings</button>.
+
             </p>
             {/* <TypewriterText /> */}
             <p>
-              {/* My current work centers on{" "}
-              <button type="button" className="inline-link" onClick={() => setActivePage("publications")}>
-                HERMES-AI
-              </button> */}
-              Before Mayo Clinic, I did research at the University of Massachusetts Lowell and the University of Minnesota. I received an MS in Computer Science from University of Massachusetts Amherst. My research areas span <button type="button" className="inline-link"><span className="highlight-organic">LLM evaluation</span></button>, <button type="button" className="inline-link"><span className="highlight-organic">human-AI collaboration</span></button>, and <button type="button" className="inline-link"><span className="highlight-organic">computational epidemiology</span></button>.
+              Previously, I conducted research at the University of Massachusetts Lowell and the University of Minnesota. I received an MS in Computer Science from University of Massachusetts Amherst. 
+              My research areas span <button type="button" className="inline-link"><span className="highlight-organic">LLM evaluation</span></button>, <button type="button" className="inline-link"><span className="highlight-organic">human-AI collaboration</span></button>, and <button type="button" className="inline-link"><span className="highlight-organic">computational epidemiology</span></button>.
             </p>
+            <i>
+              <button type="button" className="inline-link"> 🩵 My long-term vision is to build trustworthy AI that makes high-quality healthcare more accessible and affordable, particularly for communities who have historically had the greatest barriers to care. 🩵 </button>
+            </i>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SectionHeader from "../components/SectionHeader.jsx";
-import ProjectRow from "../components/ProjectRow.jsx";
+import ProjectCard from "../components/ProjectCard.jsx";
 import ProjectArticle from "../components/ProjectArticle.jsx";
 import { projects } from "../content/projects/index.js";
 
@@ -13,11 +13,15 @@ export default function ProjectsPage() {
       {!selectedProject && (
         <>
           <SectionHeader
-            eyebrow="Selected Work"
+            // eyebrow="Selected Work"
             title="Projects"
-            description="A dedicated page for technical projects, reusable analysis tools, demos, and website or manuscript-support utilities. Click the first project to preview a full project page."
+            description={<>A tiny research lab for human-centered AI, robotics, and collaborative system design, with a little hope that it brings social good somewhere on the roadmap. 
+            <br /> <br />
+            나만의 연구를 기록하는 공간. 이 곳이 사람들을 도울 수 있는 아이디어의 출발점이 되기를 바랍니다.</>}
           />
-          {projects.map((item) => <ProjectRow key={item.id} item={item} onOpen={setSelectedProjectId} />)}
+          <div className="projects-board">
+            {projects.map((item) => <ProjectCard key={item.id} item={item} onOpen={setSelectedProjectId} />)}
+          </div>
         </>
       )}
       {selectedProject && <ProjectArticle project={selectedProject} onBack={() => setSelectedProjectId(null)} />}
