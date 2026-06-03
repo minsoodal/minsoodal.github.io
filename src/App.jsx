@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage.jsx";
 import PublicationsPage from "./pages/PublicationsPage.jsx";
 import BlogPage from "./pages/BlogPage.jsx";
 import ProjectsPage from "./pages/ProjectsPage.jsx";
+import CVPage from "./pages/CVPage.jsx";
 import { runContentTests } from "./utils/contentTests.js";
 
 runContentTests();
@@ -26,11 +27,12 @@ export default function App() {
         {activePage === "publications" && <PublicationsPage />}
         {activePage === "blog" && <BlogPage />}
         {activePage === "projects" && <ProjectsPage />}
+        {activePage === "cv" && <CVPage />}
       </main>
 
       <p className="template-credit">
-        Design inspired by <a href="https://danielrjiang.github.io/">Dr. Daniel R. Jiang's website</a>. 
-        The code for this website design is available at this <a href="https://github.com/minsoodal/minsoodal.github.io">repo</a>.
+        Design © 2026 Minhwa Lee . 
+        The code for this website is available at this <a href="https://github.com/minsoodal/minsoodal.github.io">repo</a>.
       </p>
       <BackToTop />
     </div>
