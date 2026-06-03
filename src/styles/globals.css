@@ -157,7 +157,7 @@ body {
 
 .typewriter-text {
   font-family: var(--font-display);
-  font-size: clamp(2.1rem, 5.8vw, 1.5rem);
+  font-size: clamp(1.5rem, 5.8vw, 2.1rem);
   line-height: 1;
   color: var(--color-black);
   font-weight: 600;
@@ -1168,16 +1168,9 @@ body {
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   :root {
-    --photo-size: 92px;
-    --icon-size: 52px;
-  }
-  .typewriter-wrap {
-    min-height: 148px;
-  }
-  .typewriter-text {
-    font-size: clamp(1.35rem, 8vw, 2.15rem);
+    --photo-size: clamp(110px, 36vw, 145px);
   }
   .bio-grid {
     grid-template-columns: 1fr;
@@ -1185,13 +1178,36 @@ body {
   }
   .bio-social {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: var(--space-md);
+    gap: var(--space-sm);
   }
   .social-links {
-    justify-content: flex-start;
+    justify-content: center;
     padding-top: 0;
     margin-top: 0;
+  }
+  .bio-origin {
+    text-align: center;
+  }
+  .typewriter-text {
+    font-size: calc(0.72rem + 10px);
+  }
+  .typewriter-wrap {
+    min-height: 54px;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    --photo-size: 120px;
+    --icon-size: 52px;
+  }
+  .typewriter-wrap {
+    min-height: 54px;
+  }
+  .typewriter-text {
+    font-size: calc(0.72rem + 10px);
   }
   .publication-row, .project-row, .blog-row {
     grid-template-columns: var(--icon-size) minmax(0, 1fr);
@@ -1238,6 +1254,46 @@ body {
   border: 1px solid var(--color-gray-pale);
   border-radius: 4px;
   display: block;
+}
+
+@media (max-width: 650px) {
+  .cv-iframe {
+    height: 75vh;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 500px) {
+  .cv-iframe {
+    display: none;
+  }
+  .cv-mobile-fallback {
+    display: flex;
+  }
+}
+
+.cv-mobile-fallback {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: var(--space-2xl) var(--space-lg);
+  border: 1px solid var(--color-gray-pale);
+  border-radius: 4px;
+  background: #fafafa;
+  text-align: center;
+  color: var(--color-gray);
+  font-size: clamp(0.72rem, 2.2vw, 0.88rem);
+}
+
+.cv-mobile-fallback a {
+  display: inline-block;
+  padding: 10px 22px;
+  border: 1px solid var(--color-black);
+  border-radius: 3px;
+  color: var(--color-black);
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 @media (prefers-reduced-motion: reduce) {

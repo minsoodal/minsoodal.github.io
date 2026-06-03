@@ -29,9 +29,9 @@ export default function BioCard({ setActivePage }) {
               Previously, I conducted research at the University of Massachusetts Lowell and the University of Minnesota. I received an MS in Computer Science from University of Massachusetts Amherst. 
               My research areas span <button type="button" className="inline-link"><span className="highlight-organic">LLM evaluation</span></button>, <button type="button" className="inline-link"><span className="highlight-organic">human-AI collaboration</span></button>, and <button type="button" className="inline-link"><span className="highlight-organic">computational epidemiology</span></button>.
             </p>
-            <i>
-              <button type="button" className="inline-link"> 🩵 My long-term vision is to build trustworthy AI that makes high-quality healthcare more accessible and affordable, particularly for communities who have historically had the greatest barriers to care. 🩵 </button>
-            </i>
+            <p style={{ fontStyle: 'italic', textDecoration: 'underline', textDecorationStyle: 'dashed', textDecorationColor: '#c8c8c8', textUnderlineOffset: '2px' }}>
+              🩵 My long-term vision is to build trustworthy AI that makes high-quality healthcare more accessible and affordable, particularly for communities who have historically had the greatest barriers to care. 🩵
+            </p>
           </div>
         </div>
       </div>

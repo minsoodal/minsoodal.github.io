@@ -32,6 +32,10 @@ export default function CVPage() {
           className="cv-iframe"
           aria-label="CV PDF viewer"
         />
+        <div className="cv-mobile-fallback">
+          <p>PDF previews don't display well on mobile.</p>
+          <a href={cvUrl} download>Download CV (PDF)</a>
+        </div>
       </div>
     </section>
   );
