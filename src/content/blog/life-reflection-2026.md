@@ -4,7 +4,7 @@ date: Apr 2026
 dateSortKey: 2026-04-12
 category: life
 readingTime: 10 min read
-title:  돌아보니, 우연은 없었다. 
+title:  20대의 끝무렵, 리셋의 축복. 
 excerpt: A five-year journey toward more gratitude, resilience, and spiritual growth. Written in Korean for geniune confession. 
 ---
 
