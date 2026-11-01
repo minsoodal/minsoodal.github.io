@@ -1,13 +1,13 @@
 ---
 id: clinical-ai-evaluation-beyond-accuracy
 date: May 2026
-dateSortKey: 2026-05-01
-category: Clinical AI
+dateSortKey: 2026-05-24
+category: AI
 readingTime: 6 min read
-title: What real-world clinical AI evaluation needs beyond benchmark accuracy
+title: Thoughts on AI for clinical trials
 excerpt: Notes on evaluating deployed LLM/RAG systems through clinician feedback, evidence quality, workflow fit, and phase-over-phase improvements.
-links:
-  - Related paper
+# links:
+#   - https://
 ---
 
 ## Why benchmark accuracy is not enough

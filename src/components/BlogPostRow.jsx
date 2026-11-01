@@ -5,7 +5,6 @@ export default function BlogPostRow({ item, onRead }) {
     <article className="blog-row">
       <div className="blog-date-block">
         <span>{item.date}</span>
-        <small>{item.category}</small>
       </div>
       <div className="row-content">
         <h3 className="publication-title">
@@ -18,19 +17,6 @@ export default function BlogPostRow({ item, onRead }) {
           </button>
         </h3>
         <p className="blog-meta-line">{item.category} · {item.readingTime}</p>
-        <p className="publication-description-wrapper">{item.excerpt}</p>
-        <div className="publication-links">
-          {hasFullPost ? (
-            <button type="button" className="publication-action" onClick={() => onRead(item.id)}>
-              ▸ Read post
-            </button>
-          ) : (
-            <span className="link-item muted">▸ Draft preview</span>
-          )}
-          {item.links.map((link) => (
-            <span className="link-item" key={link}>▸ <a href="#">{link}</a></span>
-          ))}
-        </div>
       </div>
     </article>
   );

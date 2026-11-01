@@ -1,14 +1,19 @@
 export const news = [
   {
+    date: "Aug '26",
+    text: "Thrilled to continue my US life journey as a H-1B visa holder! ",
+    highlight: "H-1B visa",
+  },
+  {
     date: "May '26",
     text: "Submitted a first-authored manuscript for an multi-agent clinical trial matching that I led at Mayo Clinic. Wish me good luck!",
     highlight: "multi-agent clinical trial matching",
   },
-  {
-    date: "May '26",
-    text: "My Google Scholar citations reached 400!",
-    highlight: "400",
-  },
+  // {
+  //   date: "May '26",
+  //   text: "My Google Scholar citations reached 400!",
+  //   highlight: "400",
+  // },
   {
     date: "Apr '26",
     text: "My work on AI-assisted writing is accepted to ACL 2026 as a main track (Acceptance rate: 18%)!",
