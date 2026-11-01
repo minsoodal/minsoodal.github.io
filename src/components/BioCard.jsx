@@ -21,7 +21,7 @@ export default function BioCard({ setActivePage }) {
         <div className="bio-right">
           <div>
             <p>
-              I'm an <span className="highlight-organic-yellow">AI engineer</span> at Mayo Clinic, where I develop an AI-powered clinical trial matching system for efficient and trustworthy patient care. My work sits at the mix of research and deployment, focusing on <span className="highlight-organic">AI agents</span>, <span className="highlight-organic">LLM reasoning optimization </span> through <span className="highlight-organic">human-in-the-loop evaluation</span> to make sure safety and reliability in <button type="button" className="inline-link">enterprise-level clinical workflows</button>.
+              I'm an <span className="highlight-organic-yellow">AI engineer</span> deployed at Mayo Clinic through CitiusTech Inc., where I develop an AI-powered patient-trial matching system for efficient and trustworthy clinical research advancement. My work sits at the mix of research and production software development, focusing on <span className="highlight-organic">AI agents</span>, <span className="highlight-organic">LLM reasoning optimization </span> through <span className="highlight-organic">human-in-the-loop evaluation</span> to make sure safety and reliability in <button type="button" className="inline-link">enterprise-level clinical workflows</button>.
 
             </p>
             {/* <TypewriterText /> */}
